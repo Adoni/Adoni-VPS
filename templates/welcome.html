@@ -1,0 +1,89 @@
+{% load staticfiles %}
+<html><head>
+
+  <meta charset="UTF-8">
+
+  <title>Time of us</title>
+
+  <style>
+  @import url(http://fonts.googleapis.com/css?family=Lato:300, 700);
+
+    html{
+      background-color:#F5F4ED;
+      color:#525B5F;
+      font-family:lato, sans-serif;
+      font-weight:700;
+      line-height:2;
+      font-size:1.5em;
+      min-height:100%;
+      text-align:center;
+    }
+
+    h2{
+      font-weight:300;
+    }
+
+      @media (min-height: 650px) {
+        body{
+          padding-top:5em;
+        }
+      }
+      @media (min-width: 540px) {
+        html{
+          font-size:2.5em;
+        }
+      }
+</style>
+<script type="text/javascript">
+    var day={{ day }}
+    var hour={{ hour }}
+    var minute={{ minute }}
+    var second={{ second }}
+    var t
+
+    function timedCount()
+    {
+        if(second>=10)
+            second_str=second.toString()
+        else
+            second_str='0'+second.toString()
+        if(minute>=10)
+            minute_str=minute.toString()
+        else
+            minute_str='0'+minute.toString()
+        if(hour>=10)
+            hour_str=hour.toString()
+        else
+            hour_str='0'+hour.toString()
+        document.getElementById('txt').innerText=
+                day.toString()+' d '+hour_str+' h '+minute_str+' m '+second_str+' s '
+        second+=1
+        if(second==60)
+        {
+            second=0
+            minute+=1
+        }
+        if(minute==60)
+        {
+            minute=0
+            hour+=1
+        }
+        if(hour==24)
+        {
+            hour=0
+            day+=1
+        }
+        t=setTimeout("timedCount()",1000)
+    }
+</script>
+</head>
+
+<body>
+
+  <h3>The time we spend together</h3>
+  <h1 id="txt">Now!</h1>
+</body>
+<script>
+    timedCount()
+</script>
+</html>
