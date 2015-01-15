@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991a5582-b824-4882-b092-2f74618090d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adoni/settings.py" afterPath="$PROJECT_DIR$/adoni/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adoni/urls.py" afterPath="$PROJECT_DIR$/adoni/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time_of_us/views.py" afterPath="$PROJECT_DIR$/time_of_us/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/welcome.html" afterPath="$PROJECT_DIR$/templates/welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Adoni-VPS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/time_of_us/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="182" selection-end="182" vertical-scroll-proportion="0.29753914" vertical-offset="0" max-vertical-offset="447">
+            <state line="17" column="29" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="589">
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -46,10 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="45" selection-start="1255" selection-end="1255" vertical-scroll-proportion="-5.6296296" vertical-offset="798" max-vertical-offset="1786">
+            <state line="10" column="9" selection-start="181" selection-end="181" vertical-scroll-proportion="0.4" vertical-offset="38" max-vertical-offset="2489">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ironman.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/ironman.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="295" column="1" selection-start="4912" selection-end="4912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5719">
               <folding />
             </state>
           </provider>
@@ -81,9 +91,10 @@
       <list>
         <option value="$PROJECT_DIR$/adoni/urls.py" />
         <option value="$PROJECT_DIR$/tamplates/welcome" />
-        <option value="$PROJECT_DIR$/templates/welcome.html" />
         <option value="$PROJECT_DIR$/adoni/settings.py" />
         <option value="$PROJECT_DIR$/time_of_us/views.py" />
+        <option value="$PROJECT_DIR$/static/ironman.css" />
+        <option value="$PROJECT_DIR$/templates/welcome.html" />
       </list>
     </option>
   </component>
@@ -438,10 +449,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/welcome.html">
+    <entry file="file://$PROJECT_DIR$/time_of_us/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="45" selection-start="1255" selection-end="1255" vertical-scroll-proportion="-5.6296296" vertical-offset="798" max-vertical-offset="1786">
-          <folding />
+        <state line="17" column="29" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="589">
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -452,12 +465,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_of_us/views.py">
+    <entry file="file://$PROJECT_DIR$/static/ironman.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="182" selection-end="182" vertical-scroll-proportion="0.29753914" vertical-offset="0" max-vertical-offset="447">
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state line="295" column="1" selection-start="4912" selection-end="4912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5719">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="181" selection-end="181" vertical-scroll-proportion="0.4" vertical-offset="38" max-vertical-offset="2489">
+          <folding />
         </state>
       </provider>
     </entry>

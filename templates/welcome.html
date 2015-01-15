@@ -9,7 +9,6 @@
   @import url(http://fonts.googleapis.com/css?family=Lato:300, 700);
 
     html{
-      background-color:#F5F4ED;
       color:#525B5F;
       font-family:lato, sans-serif;
       font-weight:700;
@@ -34,6 +33,7 @@
         }
       }
 </style>
+    <link href="{% static 'ironman.css' %}"  rel="stylesheet" type="text/css"/>
 <script type="text/javascript">
     var day={{ day }}
     var hour={{ hour }}
@@ -82,6 +82,43 @@
 
   <h3>The time we spend together</h3>
   <h1 id="txt">Now!</h1>
+<div>
+    <div class="ironman">
+  <div class="head">
+    <div class="helmet">
+      <div class="helmet-inside-fix">
+        <!-- Face background -->
+        <div class="helmet-inside-top"></div>
+        <div class="helmet-inside-fix-left"></div>
+        <div class="helmet-inside-fix-right"></div>
+        <div class="helmet-inside-right"></div>
+        <div class="helmet-inside-left"></div>
+      </div>
+
+      <div class="helmet-inside">
+        <!-- Eyes -->
+        <div class="eye-left"></div>
+        <div class="eye-right"></div>
+
+        <!-- Mouth -->
+        <div class="mouth"></div>
+      </div>
+    </div>
+  </div>
+  <div class="body">
+    <!-- Heart -->
+    <div class="heart"></div>
+
+    <!-- Arms -->
+    <div class="arm-left"></div>
+    <div class="arm-right"></div>
+
+    <!-- Legs -->
+    <div class="leg-left"></div>
+    <div class="leg-right"></div>
+  </div>
+</div>
+</div>
 </body>
 <script>
     timedCount()
